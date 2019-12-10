@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Furocku Web Font",
+  "version": "1.0.9",
+  "description": "Furocku Web Font addon can correctly display myanmar text written with unicode or zawgyi font",
+  "content_scripts": [{
+    "css":["webfont.css","modal2.css"],
+    "js": ["zawgyi_detector.min.v1.1.1.js","rabbit.js","content.1.js","convert_modal.js"],
+    "matches": ["<all_urls>"],
+    "all_frames":true
+  }],
+  "icons":{
+    "48":"icons/icon48.png",
+    "96":"icons/icon96.png"
+  }
+}

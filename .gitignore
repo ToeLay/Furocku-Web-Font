@@ -1,0 +1,10 @@
+*.1.*
+*.zip
+/popup
+content2.js
+convert_modal.js
+manifest_copy.js
+modal*.css
+redom.js
+test*
+zawgyi_detector.min.js
